@@ -17,7 +17,12 @@
    MONGO_URL = mongodb://localhost:27017/vote
    PORT = 6000
     ```
-3. <b>deploy this project</b> on your local server by using this command
+3. <b>Run the seeder</b> please uncommnet code to add products and users
+     ### server.js file
+    Uncomment 19 number line to add dummy users and options data
+   ![image](https://user-images.githubusercontent.com/92462707/226911280-4451d266-0483-4172-883a-ae15775d4b1d.png)
+    
+4. <b>deploy this project</b> on your local server by using this command
     ```bash
     npm start
 
