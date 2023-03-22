@@ -49,6 +49,8 @@
 ![image](https://user-images.githubusercontent.com/92462707/226906433-764b8396-8d3e-4e46-a9e6-61348a47f5f1.png)
 
 #### 2. Vote detail api use cases
+    Api endpoint - http://localhost:6000/api/vote/
+    Get request
     
     1.If no user has voted to any option yet.
 ![image](https://user-images.githubusercontent.com/92462707/226907807-42aef24a-aecb-44b2-bd82-e99d2bde31ac.png)
