@@ -28,7 +28,15 @@
 
     
 #### 1. Submit vote api use cases 
-    
+       Api endpoint - http://localhost:6000/api/vote/
+       Post request
+       Payload - {
+          "user_id":"641af1317897cf48760fd476",
+          "option_id":"641af1317897cf48760fd47c",
+          "star":1
+       }
+       
+       
     1.If userId Or optionId not in the database.
 ![image](https://user-images.githubusercontent.com/92462707/226905140-c2f0b198-99d9-44e7-ac35-6bf6660f5b25.png)
     2.Star must not be less than 0 or greater than 5.
