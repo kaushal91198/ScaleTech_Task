@@ -28,7 +28,7 @@ const voteController = () => {
         if (findUserId.allowedStar == 0 || findUserId.allowedStar < star) {
           return res.status(409).json({
             success: false,
-            message: findUserId.allowedStar !== 0 ? `Your have only ${findUserId.allowedStar} star for voting` : "You don't have the star for voting",
+            message: findUserId.allowedStar !== 0 ? `You have only ${findUserId.allowedStar} star for voting` : "You don't have the star for voting",
             maxStar: findUserId.allowedStar
           })
         }
