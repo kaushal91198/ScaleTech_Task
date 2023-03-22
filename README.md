@@ -36,7 +36,7 @@
 
 #### 2. Vote detail api use cases
     1.If no user has voted to any option yet.
-![image](https://user-images.githubusercontent.com/92462707/226907807-42aef24a-aecb-44b2-bd82-e99d2bde31ac.png
+![image](https://user-images.githubusercontent.com/92462707/226907807-42aef24a-aecb-44b2-bd82-e99d2bde31ac.png)
     2.Star must not be less than 0 or greater than 5.
 ![image](https://user-images.githubusercontent.com/92462707/226907196-87c1dff5-44fe-4cc5-aecc-5152de6a5bd5.png)  
 
